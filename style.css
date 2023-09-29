@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+html,
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('3.jpg'); /* Use the 'url' function to specify the image path */
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+}
+
+
+.calculator {
+  background-color: gray; /* Set the calculator background color to aqua */
+  border: 2px solid black; /* Add a border around the calculator */
+  border-radius: 9px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.button {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: rgb(12, 1, 1);
+  color: orange;
+}
+
+.row {
+  margin: 8px 0;
+}
+
+.row input {
+  width: 291px;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
